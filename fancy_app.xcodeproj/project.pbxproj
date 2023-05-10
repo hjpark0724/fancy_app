@@ -14,6 +14,10 @@
 		2E4ACF372A0B022700CDF322 /* fancy_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACF362A0B022700CDF322 /* fancy_appTests.swift */; };
 		2E4ACF412A0B022700CDF322 /* fancy_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACF402A0B022700CDF322 /* fancy_appUITests.swift */; };
 		2E4ACF432A0B022700CDF322 /* fancy_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACF422A0B022700CDF322 /* fancy_appUITestsLaunchTests.swift */; };
+		2E4ACF502A0B108A00CDF322 /* MenuCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACF4F2A0B108A00CDF322 /* MenuCard.swift */; };
+		2E4ACF522A0B10F700CDF322 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACF512A0B10F700CDF322 /* RoundedCorner.swift */; };
+		2E4ACF562A0B15F000CDF322 /* MenuCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACF552A0B15F000CDF322 /* MenuCardList.swift */; };
+		2E4ACF592A0B181000CDF322 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4ACF582A0B181000CDF322 /* MenuModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		2E4ACF3C2A0B022700CDF322 /* fancy_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fancy_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4ACF402A0B022700CDF322 /* fancy_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fancy_appUITests.swift; sourceTree = "<group>"; };
 		2E4ACF422A0B022700CDF322 /* fancy_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fancy_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E4ACF4F2A0B108A00CDF322 /* MenuCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCard.swift; sourceTree = "<group>"; };
+		2E4ACF512A0B10F700CDF322 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		2E4ACF552A0B15F000CDF322 /* MenuCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardList.swift; sourceTree = "<group>"; };
+		2E4ACF582A0B181000CDF322 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,10 @@
 		2E4ACF242A0B022500CDF322 /* fancy_app */ = {
 			isa = PBXGroup;
 			children = (
+				2E4ACF572A0B17F900CDF322 /* Models */,
+				2E4ACF542A0B15A900CDF322 /* Modifiers */,
+				2E4ACF532A0B158C00CDF322 /* Views */,
 				2E4ACF252A0B022500CDF322 /* fancy_appApp.swift */,
-				2E4ACF272A0B022500CDF322 /* ContentView.swift */,
 				2E4ACF292A0B022700CDF322 /* Assets.xcassets */,
 				2E4ACF2B2A0B022700CDF322 /* Preview Content */,
 			);
@@ -125,6 +135,32 @@
 				2E4ACF422A0B022700CDF322 /* fancy_appUITestsLaunchTests.swift */,
 			);
 			path = fancy_appUITests;
+			sourceTree = "<group>";
+		};
+		2E4ACF532A0B158C00CDF322 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E4ACF272A0B022500CDF322 /* ContentView.swift */,
+				2E4ACF4F2A0B108A00CDF322 /* MenuCard.swift */,
+				2E4ACF552A0B15F000CDF322 /* MenuCardList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E4ACF542A0B15A900CDF322 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				2E4ACF512A0B10F700CDF322 /* RoundedCorner.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		2E4ACF572A0B17F900CDF322 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E4ACF582A0B181000CDF322 /* MenuModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4ACF592A0B181000CDF322 /* MenuModel.swift in Sources */,
+				2E4ACF522A0B10F700CDF322 /* RoundedCorner.swift in Sources */,
+				2E4ACF562A0B15F000CDF322 /* MenuCardList.swift in Sources */,
 				2E4ACF282A0B022500CDF322 /* ContentView.swift in Sources */,
+				2E4ACF502A0B108A00CDF322 /* MenuCard.swift in Sources */,
 				2E4ACF262A0B022500CDF322 /* fancy_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
